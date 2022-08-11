@@ -1,37 +1,30 @@
-## Welcome to GitHub Pages
+# Aplikacija za crtanje slobodnom rukom
 
-You can use the [editor on GitHub](https://github.com/bolo-med/GUIDomaci/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+![Slika aplikacije](/docs/assets/images/01.PNG)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+![Slika aplikacije](/docs/assets/images/02.PNG)
 
-### Markdown
+![Slika aplikacije](/docs/assets/images/03.PNG)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+![Slika aplikacije](/docs/assets/images/04.PNG)
 
-```markdown
-Syntax highlighted code block
+![Slika aplikacije](/docs/assets/images/05.PNG)
 
-# Header 1
-## Header 2
-### Header 3
+![Slika aplikacije](/docs/assets/images/06.PNG)
 
-- Bulleted
-- List
+![Slika aplikacije](/docs/assets/images/07.PNG)
 
-1. Numbered
-2. List
+![Slika aplikacije](/docs/assets/images/08.PNG)
 
-**Bold** and _Italic_ and `Code` text
+![Slika aplikacije](/docs/assets/images/09.PNG)
 
-[Link](url) and ![Image](src)
-```
+![Slika aplikacije](/docs/assets/images/10.PNG)
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+## Napisati program za crtanje slobodnom rukom i dodati sljedeće funkcionalnosti:
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/bolo-med/GUIDomaci/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+- Dodati toolbar koji sadrži dropdown listu koja sadrži 10 različitih boja i koja služi za izbor boje olovke. Dodati spinner čija vrijednost definiše debljinu olovke. Crtanje izvesti izabranom bojom i debljinom olovke.
+- Dodati toolbar koji sadrži 4 radio dugmeta: elipsu, pravougaonik, liniju i slobodno crtanje. Korišćenjem opcije “mouse drag“ potrebno je iscrtati izabranu figuru na ekranu, slično programu MS Paint. Ako korisnik, dok crta elipsu, prilikom povlačenja miša drži pritisnut i taster CTRL , tada se iscrtava krug. Ako korisnik, dok crta pravougaonik, prilikom povlačenja miša drži pritisnut i taster CTRL , tada se iscrtava kvadrat.
+- U toolbar dodati check-box sa nazivom Fill. Ako je selektovan, crtati figuru popunjenu trenutnom bojom. Ako nije selektovan, crtati samo granice figure datom bojom i debljinom linije.
+- Dodati meni za snimanje nacrtane slike i učitavanje zapamćene slike. Uvesti novi format .llg i podesiti da se u prozorima za otvaranje i snimanje fajlova pojavljuju samo fajlovi sa formatom llg.
+- Dodati stavke menija za svaku od opcija koje postoje u toolbar-u.
+- Umjesto liste za izbor boja, dodati dugme za otvaranje JColorChooser-a.
